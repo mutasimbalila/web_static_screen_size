@@ -11,8 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-When you develop flutter web using MediaQuery and the browser height change MediaQuery get out of hand.  
-The package Give initial static size for the website based on your screen Size and it change only if screen height more than the default value the new value will be replaced with the old Size.
+When you develop flutter web using MediaQuery and the browser height change MediaQuery get out of hand. The package Give initial static size for the website based on your screen Size and it change only if screen height more than the default value the new value will be replaced with the old Size.
 
 ## Installing
 
