@@ -24,6 +24,7 @@ class _MyAppState extends State<MyApp> {
   }
 }
 
+//Basic
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -34,6 +35,30 @@ class HomeScreen extends StatelessWidget {
     return SizedBox(
       height: size.height,
       width: size.width,
+    );
+  }
+}
+
+///for better performance used with LayoutBuilder
+class HomeScreenWithLayoutBuilder extends StatelessWidget {
+  const HomeScreenWithLayoutBuilder({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final size = WebStaticScreenSize(context);
+
+    return LayoutBuilder(
+      builder: (BuildContext context, BoxConstraints viewportConstraints) {
+        return ConstrainedBox(
+          constraints: BoxConstraints(
+            minHeight: viewportConstraints.maxHeight,
+          ),
+          child: SizedBox(
+            height: size.height,
+            width: size.width,
+          ),
+        );
+      },
     );
   }
 }
