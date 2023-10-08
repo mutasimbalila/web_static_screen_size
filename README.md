@@ -13,7 +13,6 @@ and the Flutter guide for
 
 When you develop flutter web using MediaQuery and the browser height change MediaQuery get out of hand. The package Give initial static size for the website based on your screen Size and it change only if screen height more than the default value the new value will be replaced with the old Size.
 
-This error
 ![alt text](https://user-images.githubusercontent.com/62440911/104462329-75a45b80-55d6-11eb-9299-68681b20e56b.png)
 
 ## Installing
