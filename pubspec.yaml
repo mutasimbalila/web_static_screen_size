@@ -3,7 +3,7 @@ description: static mediaQuery size for web
 version: 1.0.0
 repository: https://github.com/mutasimbalila/web_static_screen_size.git
 
-topic:
+topics:
   - Size
   - MediaQuery
   - Web
