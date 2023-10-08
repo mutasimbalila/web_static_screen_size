@@ -1,6 +1,6 @@
 name: web_static_screen_size
 description: static mediaQuery size for web
-version: 1.0.1
+version: 1.0.2
 repository: https://github.com/mutasimbalila/web_static_screen_size.git
 
 topics:
