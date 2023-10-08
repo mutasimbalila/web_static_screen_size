@@ -14,13 +14,25 @@ and the Flutter guide for
 When you develop flutter web using MediaQuery and the browser height change MediaQuery get out of hand.  
 The package Give initial static size for the website based on your screen Size and it change only if screen height more than the default value the new value will be replaced with the old Size.
 
+## Installing
+
+`````dart
+dependencies:
+  web_static_screen_size: ^5.2.0
+```
+
+## Import
+````dart
+import 'package:web_static_screen_size/web_static_screen_size.dart';
+```
+
 ## Usage
 
 Initialize the WebStaticScreenSize in MyApp
 
 ```dart
 WebStaticScreenSize.initialize(context);
-```
+`````
 
 Instead of [MediaQuery.of(context).size] use this
 
