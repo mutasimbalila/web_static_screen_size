@@ -24,16 +24,17 @@ start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Initialize the WebStaticScreenSize in MyApp
+
+```dart
+///WebStaticScreenSize initialization must be in the before
+    ///the first think in [MyApp] so it get the exact initial size
+    WebStaticScreenSize.initialize(context);
+```
 
 ```dart
 import 'package:flutter/material.dart';
 import 'package:web_static_screen_size/web_static_screen_size.dart';
-
-void main() {
-  runApp(MyApp());
-}
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
@@ -48,6 +49,8 @@ class _MyAppState extends State<MyApp> {
     ///WebStaticScreenSize initialization must be in the before
     ///the first think in [MyApp] so it get the exact initial size
     WebStaticScreenSize.initialize(context);
+
+
     return const Material(
       child: HomeScreen(),
     );
