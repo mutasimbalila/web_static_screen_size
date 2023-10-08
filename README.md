@@ -16,13 +16,14 @@ The package Give initial static size for the website based on your screen Size a
 
 ## Installing
 
-`````dart
+```yaml
 dependencies:
   web_static_screen_size: ^5.2.0
 ```
 
 ## Import
-````dart
+
+```dart
 import 'package:web_static_screen_size/web_static_screen_size.dart';
 ```
 
@@ -32,7 +33,7 @@ Initialize the WebStaticScreenSize in MyApp
 
 ```dart
 WebStaticScreenSize.initialize(context);
-`````
+```
 
 Instead of [MediaQuery.of(context).size] use this
 
